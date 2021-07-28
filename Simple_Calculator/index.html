@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="sample1">
+        <h1 class="myName">Farhan Bashir</h1>
+        <input type="number" name="first" id="first" step="any"  placeholder="Enter Your First Number" autofocus=""/><br>
+    <select name="operator" id="opr">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">X</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select><br>
+    <input type="number" name="second" id="second" step="any" placeholder="Enter Your 2nd Number" /><br>
+    <button onclick="cal()" id="btn">calculate</button><br>
+    <input type="number" name="Result" id="res" step="any" readonly=""  placeholder="Result"/>
+    </div>
+    
+    
+    <!-- External JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
