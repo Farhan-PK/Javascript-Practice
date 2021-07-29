@@ -22,5 +22,6 @@ document.write("NEW ARRAY :"+newArray+"<br/>");
 document.write(books+"<br/>");
 // Splice Methos Practice
 
+document.write("ali <br/>");
 books.splice(2,2,"Nomi","Shani");
 document.write(books+"<br/>");
