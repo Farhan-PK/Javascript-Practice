@@ -1,0 +1,24 @@
+var courses = [];
+var cours1 = prompt("Couse1:","");
+courses.push(cours1);
+var cours2 = prompt("Couse2:","");
+courses.push(cours2);
+var cours3 = prompt("Couse3:","");
+courses.push(cours3);
+var cours4 = prompt("Couse4:","");
+courses.push(cours4);
+var cours5 = prompt("Couse5:","");
+courses.push(cours5);
+
+alert(courses);
+var cours1 = prompt("Couse1:",courses[0]);
+courses.splice(0,1,cours1);
+var cours2 = prompt("Couse2:",courses[1]);
+courses.splice(1,1,cours2);
+var cours3 = prompt("Couse3:",courses[2]);
+courses.splice(2,1,cours3);
+var cours4 = prompt("Couse4:",courses[3]);
+courses.splice(3,1,cours4);
+var cours5 = prompt("Couse5:",courses[4]);
+courses.splice(4,1,cours5);
+alert(courses);
