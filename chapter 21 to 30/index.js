@@ -6,3 +6,18 @@ inputNumber=Number(inputNumber);
 alert("Before Math(): "+inputNumber);
 inputNumber=Math.ceil(inputNumber);
 alert("Now: "+inputNumber);
+
+// Declear a variable of string and assign some text var text="This is my dummy text"
+// Slice the text into a new variable from 0 to the rounded number 
+// 0 to 4; Example: text.slice(0, 4) | sliceText = This
+
+var text = "Hi! Farhan Programer is Here.";
+var newText= text.slice(0,8);
+alert(newText);
+
+// USe of Replace Function
+
+var text1 = "Hi! Farhan Programer is Here.Farhan is Ready to learn new technology.";
+var newText2= text1.replace(/Farhan/g,"Zeeshan");
+alert(newText2);
+
