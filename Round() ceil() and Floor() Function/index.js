@@ -1,0 +1,12 @@
+var num =23.6;
+alert(num);
+num =Math.round(num);
+alert(num);
+var num1 =23.6;
+alert(num1);
+num1 =Math.ceil(num1);
+alert(num1);
+var num2 =23.6;
+alert(num2);
+num2 =Math.floor(num2);
+alert(num2);
