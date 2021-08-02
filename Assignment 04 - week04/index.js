@@ -151,3 +151,19 @@ else{
     
     console.log("Number is Not Even");
 }
+
+// // // Question-08
+// // // Write a js program to check whether character is an alphabet or not
+
+console.log("Question-08");
+console.log("");
+console.log("");
+var check = prompt("Enter a Value To Check: ",);
+if((check=='a'||check=='A')||(check=='b'||check=='B')||(check=='c'||check=='C')||(check=='d'||check=='D')||(check=='e'||check=='E')||(check=='f'||check=='F')||(check=='g'||check=='G')||(check=='h'||check=='H')||(check=='i'||check=='I')||(check=='j'||check=='J')||(check=='k'||check=='K')||(check=='l'||check=='L')||(check=='m'||check=='M')||(check=='n'||check=='N')||(check=='o'||check=='O')||(check=='p'||check=='P')||(check=='q'||check=='Q')||(check=='r'||check=='R')||(check=='s'||check=='S')||(check=='t'||check=='T')||(check=='u'||check=='U')||(check=='v'||check=='V')||(check=='W'||check=='w')||(check=='x'||check=='X')||(check=='y'||check=='Y')||(check=='z'||check=='Z'))
+{
+    console.log("Character " +check+" is Aplhabet;");
+}
+else{
+    console.log("Character " +check+" is  not Aplhabet;");
+
+}
