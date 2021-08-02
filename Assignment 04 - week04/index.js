@@ -114,3 +114,22 @@ else
 {
     console.log("Number Is -ive");
 }
+
+// // Question-06
+// // Write a js program to check whether a number is divisible by 5 and 11 or not.
+
+console.log("Question-06");
+console.log("");
+console.log("");
+var num1 = prompt("Enter a Number: ",);
+num1=Number(num1);
+console.log(num1);
+
+if(num1 % 5===0 && num1 % 11===0)
+{
+    console.log("NUmber is divisible by 5 & 11");
+}
+else
+{
+    console.log("Number is divisible not by 5 & 11");
+}
