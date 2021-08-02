@@ -133,3 +133,21 @@ else
 {
     console.log("Number is divisible not by 5 & 11");
 }
+
+//  /*Question-07
+// Write a js program to check whether a number is even or odd.*/
+
+console.log("Question-07");
+console.log("");
+console.log("");
+var num2 = prompt("Enter a Number: ",);
+num2=Number(num2);
+console.log(num2);
+if(num2 %2===0)
+{
+    console.log("NUmber is Even");
+}
+else{
+    
+    console.log("Number is Not Even");
+}
