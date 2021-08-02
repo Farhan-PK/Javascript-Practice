@@ -92,3 +92,25 @@ if(c>b && c>a)
     console.log("C "+c+" is Greater Value;");
 
 }
+
+// // Question-05
+// // Write a js program to check whether a number is negative, positive or zero.
+
+console.log("Question-05");
+console.log("");
+console.log("");
+var num1 = prompt("Enter a Number: ",);
+num1=Number(num1);
+console.log(num1);
+if(num1>0)
+{
+    console.log("Number Is +ive");
+}
+else if(num1===0)
+{
+    console.log("Number Is Zero");
+}
+else
+{
+    console.log("Number Is -ive");
+}
