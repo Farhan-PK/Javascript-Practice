@@ -28,3 +28,19 @@ console.log("9. "+ (true === 4));
 console.log("10. "+ (false === (847 === '847')));
 console.log("11. "+ (false === (847 == '847')));
 console.log("12. "+ ((!true || (!(100 / 5) === 20) || ((328 / 4) === 82)) || false));
+
+// // Question-02
+// // Add a validation check to ensure that, a number is an integer. If it isn't, then issue an error message and console it.
+console.log("Question-02");
+console.log("");
+console.log("");
+
+var a = 2.3;
+console.log("Value of:"+a);
+if(typeof a==='number' && (a%1)===0) {
+    console.log("integer");
+}
+else
+{
+    console.log(" Not integer");
+}
