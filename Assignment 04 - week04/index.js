@@ -44,3 +44,51 @@ else
 {
     console.log(" Not integer");
 }
+
+// // Question-03
+// // Write a js program to find maximum between two numbers.
+
+console.log("Question-03");
+console.log("");
+console.log("");
+var a = prompt("Enter the value Of A: ",);
+a=Number(a);
+var b = prompt("Enter the value Of B: ",);
+b=Number(b);
+if(a>b)
+{
+    console.log("A is Greater Value;");
+}
+else
+{
+    console.log("B is Greater Value;");
+}
+
+// // Question-04
+// // Write a js program to find maximum between three numbers.
+
+console.log("Question-04");
+console.log("");
+console.log("");
+var a = prompt("Enter the value Of A: ",);
+a=Number(a);
+var b = prompt("Enter the value Of B: ",);
+b=Number(b);
+var c = prompt("Enter the value Of C: ",);
+c=Number(c);
+
+console.log("A: "+a+", B: "+b+", C: "+c);
+if(a>b && a>c)
+{
+    console.log("A= "+a+" is Greater Value;");
+}
+if(b>a && b>c)
+{
+    console.log("B= "+b+" is Greater Value;");
+
+}
+if(c>b && c>a)
+{
+    console.log("C "+c+" is Greater Value;");
+
+}
