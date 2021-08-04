@@ -1,11 +1,18 @@
 var course=[];
 var totalMarks=500;
 var sum=0;
-for(var i=0;i<5;i++)
-{
-    course[i]=Number(prompt("Enter Your Marks of Course "+(i+1)),);
-    sum=sum+course[i];
+var i=0;
+while(i<5){
+        course[i]=Number(prompt("Enter Your Marks of Course "+(i+1)),);
+        sum=sum+course[i];
+        i++;
+
 }
+// for(var i=0;i<5;i++)
+// {
+//     course[i]=Number(prompt("Enter Your Marks of Course "+(i+1)),);
+//     sum=sum+course[i];
+// }
 var percent=sum*100/totalMarks;
 alert("Your Percentage is: "+percent);
 switch(percent){
